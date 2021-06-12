@@ -26,6 +26,21 @@
           <p>Was gibt es alles zu tun?</p>
         </header>
         <section>
+          <form action="todo">
+            <input type="checkbox" id="datum" name="datum" />
+            <label for="datum">Datum festlegen</label><br />
+            <input type="checkbox" id="einladungen" name="einladungen" />
+            <label for="einladungen">Einladungen versenden</label><br />
+            <input type="checkbox" id="tanz" name="tanz" />
+            <label for="tanz">Tanzunterricht</label><br />
+            <input type="checkbox" id="torte" name="torte" />
+            <label for="torte">Torte probieren</label><br />
+            <input type="checkbox" id="ablauf" name="ablauf" />
+            <label for="ablauf">Ablauf planen</label><br />
+          </form>
+        </section>
+        <!-- frührere Version der Checkboxen.
+          <section>
           <ul>
             <li>Datum festlegen</li>
             <li>Einladungen versenden</li>
@@ -33,7 +48,7 @@
             <li>Torte probieren</li>
             <li>Ablauf planen</li>
           </ul>
-        </section>
+        </section> -->
       </article>
       <article id="gäste">
         <header>
@@ -109,6 +124,7 @@
               <td>1500</td>
             </tr>
           </table>
+          <!-- Gesamtpreis mit JavaScript berechnen -->
         </section>
       </article>
       <article id="kontakt">
@@ -146,6 +162,7 @@
             <label for="antwort.nein">Nein. wir kommen leider nicht.</label>
           </form>
         </section>
+        <br />
         <section>
           <label for="anmerkungen">Wollt ihr uns etwas mitteilen?</label>
           <textarea

@@ -16,6 +16,7 @@
         <a href="#musik">Musik</a>
         <a href="#kosten">Kosten</a>
         <a href="#kontakt">Kontakt</a>
+        <a href="#anderes">Anderes</a>
       </nav>
     </header>
     <main>
@@ -125,29 +126,36 @@
           </address>
         </section>
       </article>
-      <section>
-        <h4>Werdet ihr kommen?</h4>
-        <form action="actio">
-          <input type="checkbox" id="anwort.ja" name="antwort.ja" value="ja" />
-          <label for="antwort.ja">Ja, wir kommen!</label><br />
-          <input
-            type="checkbox"
-            id="antwort.nein"
-            name="antwort.nein"
-            value="nein"
-          />
-          <label for="antwort.nein">Nein. wir kommen leider nicht.</label>
-        </form>
-      </section>
-      <section>
-        <label for="anmerkungen">Wollt ihr uns etwas mitteilen?</label>
-        <textarea
-          name="anmerkungen"
-          id="anmerkungen"
-          cols="30"
-          rows="5"
-        ></textarea>
-      </section>
+      <article id="anderes">
+        <section>
+          <h4>Werdet ihr kommen?</h4>
+          <form action="actio">
+            <input
+              type="checkbox"
+              id="anwort.ja"
+              name="antwort.ja"
+              value="ja"
+            />
+            <label for="antwort.ja">Ja, wir kommen!</label><br />
+            <input
+              type="checkbox"
+              id="antwort.nein"
+              name="antwort.nein"
+              value="nein"
+            />
+            <label for="antwort.nein">Nein. wir kommen leider nicht.</label>
+          </form>
+        </section>
+        <section>
+          <label for="anmerkungen">Wollt ihr uns etwas mitteilen?</label>
+          <textarea
+            name="anmerkungen"
+            id="anmerkungen"
+            cols="30"
+            rows="5"
+          ></textarea>
+        </section>
+      </article>
     </main>
   </body>
 </html>

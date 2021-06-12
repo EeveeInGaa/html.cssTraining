@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Hochzeitsplanung</h1>
+      <p>ein grober Überblick, über wichitge Punkte für eine Hochzeit.</p>
+      <nav>
+        <a href="#todos">ToDos</a>
+        <a href="#gäste">Gäste</a>
+        <a href="#musik">Musik</a>
+        <a href="#kosten">Kosten</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </header>
+    <main>
+      <article id="todos">
+        <header>
+          <h2>ToDos</h2>
+          <p>Was gibt es alles zu tun?</p>
+        </header>
+        <section>
+          <ul>
+            <li>Datum festlegen</li>
+            <li>Einladungen versenden</li>
+            <li>Tanzunterricht</li>
+            <li>Torte probieren</li>
+            <li>Ablauf planen</li>
+          </ul>
+        </section>
+      </article>
+      <article id="gäste">
+        <header>
+          <h2>Gäste</h2>
+          <p>Wer kommt alles?</p>
+        </header>
+        <section>
+          <table>
+            <tr>
+              <td><b>Familie</b></td>
+              <td>Mama</td>
+              <td>Papa</td>
+              <td>Schwester</td>
+            </tr>
+            <tr>
+              <td><b>Freunde</b></td>
+              <td>Sara</td>
+              <td>Lisa</td>
+              <td>Ben</td>
+            </tr>
+          </table>
+        </section>
+      </article>
+      <article id="musik">
+        <header>
+          <h2>Musik</h2>
+          <p>Was soll gespielt werden?</p>
+        </header>
+        <section>
+          <ol>
+            <li>Only you - The Platters</li>
+            <li>Happy Days - The Overtones</li>
+            <li>Don't stop Beliving - Jouney</li>
+            <li>Enjoy the Silence - Depeche Mode</li>
+            <li>Feels like heaven - Fiction Factory</li>
+          </ol>
+        </section>
+      </article>
+      <article id="kosten">
+        <header>
+          <h2>Kosten</h2>
+          <p>Was kostet der ganze Spaß?</p>
+        </header>
+        <section>
+          <table>
+            <tr>
+              <th>Posten</th>
+              <th>Preis</th>
+            </tr>
+            <tr>
+              <td>Kleid</td>
+              <td>1000</td>
+            </tr>
+            <tr>
+              <td>Ringe</td>
+              <td>500</td>
+            </tr>
+            <tr>
+              <td>Essen</td>
+              <td>700</td>
+            </tr>
+
+            <tr>
+              <td>Location</td>
+              <td>1000</td>
+            </tr>
+            <tr>
+              <td>Blumen/Deko</td>
+              <td>300</td>
+            </tr>
+            <tr>
+              <td>Fotograf</td>
+              <td>1500</td>
+            </tr>
+          </table>
+        </section>
+      </article>
+      <article id="kontakt">
+        <header>
+          <h3>Kontakt</h3>
+          <p>Wie sind wir erreichbar?</p>
+        </header>
+        <section>
+          <a href="tel:+1234567890">Anruf</a>
+          <a href="mailto:abc@gmail.com">Mail</a>
+          <address>
+            Musterstr. 1 <br />
+            12345 Musterstadt <br />
+            DEU
+          </address>
+        </section>
+      </article>
+      <section>
+        <h4>Werdet ihr kommen?</h4>
+        <form action="actio">
+          <input type="checkbox" id="anwort.ja" name="antwort.ja" value="ja" />
+          <label for="antwort.ja">Ja, wir kommen!</label><br />
+          <input
+            type="checkbox"
+            id="antwort.nein"
+            name="antwort.nein"
+            value="nein"
+          />
+          <label for="antwort.nein">Nein. wir kommen leider nicht.</label>
+        </form>
+      </section>
+      <section>
+        <label for="anmerkungen">Wollt ihr uns etwas mitteilen?</label>
+        <textarea
+          name="anmerkungen"
+          id="anmerkungen"
+          cols="30"
+          rows="5"
+        ></textarea>
+      </section>
+    </main>
+  </body>
+</html>
